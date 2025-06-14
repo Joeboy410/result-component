@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    background-color:  hsl(241, 100%, 89%);
+    font-family: "Hanken Grotesk", sans-serif;
+  font-optical-sizing: auto;
+}
+.container{
+    display: flex;
+}
+.left_side{
+    background-color: hsl(252, 100%, 67%);
+    border-radius: 1rem;
+    text-align: center;
+    width: 16rem;
+    color: white;
+    padding: 2rem;
+    z-index: 2;
+}
+.left_side p, .left_side h4, .result_bar p{
+    color: hsl(241, 100%, 89%);
+}
+.result_bar{
+    margin-top: 2rem;
+    padding: 2rem;
+    border-radius: 7rem;
+    width: 10rem;
+    height: 10rem;
+    background-color: hsla(256, 72%, 46%, 0.493);
+    margin-left: 1rem;
+}
+.result_bar h1{
+    font-size: 3rem;
+    margin-top: 1rem;
+}
+.result_bar p{
+    color: rgba(255, 255, 255, 0.795);
+    font-size: 13px;
+}
+.left_side h3{
+    margin: 1.2rem 0rem 0.8rem 0rem;
+}
+.texts{
+    font-size: 14px;
+}
+.right_side{
+    background-color: white;
+    border-radius: 1rem;
+    padding: 2rem 2rem 2rem 4rem;
+    width: 20rem;
+    text-align: center;
+    z-index: 1;
+    transform: translate(-2rem, 0rem);
+}
+.right_side h4{
+    margin-bottom: 1rem;
+    margin-right: 10rem;
+}
+.group{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    justify-content: space-between;
+    padding: 0.7rem;
+    border-radius: 0.6rem;
+}
+.group p{
+    color: hsl(241, 100%, 89%);
+}
+.group img{
+    height: 1.1rem;;
+}
+.top{
+    display: flex;
+    align-items: center;
+    width: 6rem;
+    gap: 1rem;
+}
+[reaction] h5{
+    color: hsl(0, 100%, 67%);
+}
+[reaction]{
+    background-color: hsla(0, 97%, 44%, 0.158);
+}
+[memory]{
+    background-color: hsl(39, 100%, 56%, 0.158);
+}
+[memory] h5{
+    color: hsl(39, 100%, 56%);
+}
+[verbal]{
+    background-color: hsl(166, 100%, 37%, 0.158);
+}
+[verbal] h5{
+     color: hsl(166, 100%, 37%);
+}
+[visual]{
+    background-color: hsl(234, 85%, 45%, 0.158);
+}
+[visual] h5{
+    color: hsl(234, 85%, 45%);
+}
+.ctn{
+    text-decoration: none;
+    padding: 0.8rem 5rem 0.8rem 5rem;
+    background-color: hsl(226, 43%, 10%);
+    color: white;
+    border-radius:1.5rem;
+    border: none;
+    margin-top: 1rem;
+}
+.group_score{
+    color:hsl(226, 43%, 10%);
+    margin-right: 0.3rem;}
+    .group_slash{
+        margin-right: 0.3rem;
+    }
